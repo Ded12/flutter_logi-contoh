@@ -1,17 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:login/config.dart';
 
-
 class LayerTwo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
       width: 399,
       height: 584,
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: layerTwoBg,
         borderRadius: BorderRadius.only(
-            topLeft: Radius.circular(60.0),
+            topLeft: Radius.circular(80.0),
             bottomRight: Radius.circular(60.0),
             bottomLeft: Radius.circular(60.0),
         ),

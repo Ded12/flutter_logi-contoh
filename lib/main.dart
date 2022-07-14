@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:login/layer_two.dart';
+import 'package:login/layers/layer_two.dart';
 import 'package:login/layers/layer_one.dart';
 import 'package:login/layers/layer_three.dart';
 
@@ -37,7 +37,7 @@ class LoginPage extends StatelessWidget {
                         fontSize: 48,
                         fontFamily: 'Poppins-Medium',
                         fontWeight: FontWeight.w500,
-                        color: Color.fromARGB(255, 0, 0, 0)),
+                        color: Color.fromARGB(255, 252, 252, 252)),
                 )
                 )),
             const Positioned(top: 290, right: 0, bottom: 0, child: LayerOne()),

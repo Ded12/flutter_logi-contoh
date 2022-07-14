@@ -10,7 +10,7 @@ class LayerOne extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: MediaQuery.of(context).size.width,
-      height: 654,
+      height: 700,
       decoration: const BoxDecoration(
         color: layerOneBg,
         borderRadius:  BorderRadius.only(
